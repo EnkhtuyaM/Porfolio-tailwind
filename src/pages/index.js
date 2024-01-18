@@ -1,13 +1,13 @@
-import Image from 'next/image';
-import {Inter} from "next/font/google";
-import { Portfolio } from './Portfolio';
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import { Portfolio } from "./Portfolio";
 
-const inter = Inter({subsets:["latin"]});
+const inter = Inter({ subsets: ["latin"] });
 
-export default function Home(){
+export default function Home() {
   return (
-    <div className=''>
+    <div className="">
       <Portfolio />
     </div>
-  )
+  );
 }
