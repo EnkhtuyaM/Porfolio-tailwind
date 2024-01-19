@@ -1,13 +1,17 @@
 export const About = () => {
   return (
-    <div className="w-[1440px] h-[694px] px-20 py-96px">
-      <div className="flex gap-30">
+    <div className="w-[1440px] h-[694px] px-12 py-18 bg-gray-50 ">
+      <div className="flex justify-center mb-12">
+      <button className=" flex w-[105px] h-7 border-2 rounded-lg">About me</button>
+      </div>
+     
+      <div className="flex gap-52">
         <div>
           <img src="./about.png" alt="" />
         </div>
 
-        <div className="w-[584px] h-[694px] ">
-          <h3>Curious about me? Here you have it:</h3>
+        <div className="w-[584px] h-[694px] px-8">
+          <h3 className="text-3xl font-bold">Curious about me? Here you have it:</h3>
           <p>
             I'm a passionate, self-proclaimed designer who specializes in full
             stack development (React.js & Node.js). I am very enthusiastic about
@@ -36,10 +40,23 @@ export const About = () => {
             can follow me on GitHub.
           </p>
           <p>Finally, some quick bits about me.</p>
-          <p>
-            B.E. in Computer Engineering Full time freelancer Avid learner
-            Aspiring indie hacker
-          </p>
+          <div className="flex gap-16">
+            <div className="flex flex-col list-inside">
+            <p>
+            B.E. in Computer Engineering  
+            </p>
+            <p>Full time freelancer</p>
+          </div>
+          <div className="flex flex-col list-inside">
+            <p>
+            Avid learner
+            
+            </p>
+            <p>Aspiring indie hacker</p>
+          </div>
+          </div>
+
+
           <p>
             One last thing, I'm available for freelance work, so feel free to
             reach out and say hello! I promise I don't bite 😉

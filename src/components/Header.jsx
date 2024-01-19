@@ -1,7 +1,7 @@
 export const Header = () => {
   return (
-    <div className="px-20 py-4">
-      <div className="flex items-center justify-between px-8 bg-neutral-200;">
+    <div className="w-[1440px] h-[68px] ">
+      <div className="w-[1280px] h-[36] px-0 py-1 flex justify-between px-8 bg-neutral-200;">
         <div className="flex items-center gap-6">
           {/* <p>About</p>
           <p>Work</p>
