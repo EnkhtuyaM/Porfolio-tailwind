@@ -8,3 +8,4 @@ export * from "./NextjsIcon";
 export * from "./ExpressjsIcon";
 export * from "./NestjsIcon";
 export * from "./SocketioIcon";
+export * from "./MongodbIcon"

@@ -6,7 +6,7 @@ export const Hero = () => {
           <h1 className="text-6xl font-bold text-gray-900  ">
             Hi, I’m Sagar 👋
           </h1>
-          <div className=" flex flex-col justify-between gap-12">
+          <div className=" w-[768px] h-[72px] flex flex-col justify-between gap-12">
             <p>
               I'm a full stack developer (React.js & Node.js) with a focus on
               creating (and occasionally designing) exceptional digital
@@ -145,7 +145,8 @@ export const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="w-[300px] h-[400px] bg-black h-50 ">
+        <div className=" w-[400px] h-[360px] bg-slate-50">
+          <img src="./hero.png" alt="" />
           <div></div>
           <div></div>
         </div>
