@@ -1,6 +1,6 @@
 export const Hero=()=>{
     return(
-        <div className="flex w-[1440px] h-[552px] px-8 py-16 bg-red-200 gap-28">
+        <div className="flex w-[1440px] h-[552px] px-8 py-16 gap-28">
             <div className="flex flex-col w-[768px] h-[152px] gap-8">
                 <h1 className="w-[418px] h-[72px] font-bold text-5xl text-gray-900">Hi, I’m Sagar 👋</h1>
                 <p className="w-[768px h-[72px mb-8 text-base text-gray-600]">I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 7 years, I still love it as if it was something new</p>
