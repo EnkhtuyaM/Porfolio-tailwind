@@ -12,6 +12,7 @@
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
+    "restart": "^2.0.0",
     "start": "^5.1.0"
   },
   "devDependencies": {

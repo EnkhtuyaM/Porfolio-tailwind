@@ -3,7 +3,7 @@ import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
 import { Skills } from "@/components";
 import { Experience } from "@/components/Experience";
-import {Work} from "@/components";
+import { Work } from "@/components";
 import { Contactme } from "@/components/Contactme";
 import { Footer } from "@/components/Footer";
 export const Portfolio = () => {
@@ -13,9 +13,9 @@ export const Portfolio = () => {
       <Hero />
       <About />
       <Skills />
-        {/* <Experience /> */}
+      <Experience />
       <Work />
-      <Contactme/>
+      <Contactme />
       <Footer />
     </div>
   );
