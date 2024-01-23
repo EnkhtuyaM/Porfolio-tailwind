@@ -1,11 +1,14 @@
-import { Header } from "@/components/Header";
-import { Hero } from "@/components/Hero";
-import { About } from "@/components/About";
-import { Skills } from "@/components";
-import { Experience } from "@/components/Experience";
-import { Work } from "@/components";
-import { Contactme } from "@/components/Contactme";
-import { Footer } from "@/components/Footer";
+import {
+  Header,
+  Hero,
+  About,
+  Skills,
+  Work,
+  Experience,
+  Contactme,
+  Footer,
+} from "@/components";
+
 export const Portfolio = () => {
   return (
     <div>

@@ -1,5 +1,3 @@
-import { fromJSON } from "postcss";
-
 export * from "./icons/icon";
 export * from "./Header";
 export * from "./Hero";
