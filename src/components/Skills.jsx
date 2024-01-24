@@ -2,16 +2,14 @@ import { Button } from "./elements";
 
 export const Skills = () => {
   return (
-    <div className="w-[1440px] h-[560px]">
-      <div className="flex justify-center mt-12">
+    <div className="w-[1440px] h-[560px] flex flex-col px-20 py-24 gap-3 m-auto">
+      <div className="flex justify-center">
         <Button buttName={"Skills"} />
       </div>
-      <div className="flex justify-between ">
-        <h3 className="w-[1216px] h-[28px] ps-[530px] mt-6 mb-16">
-          The skills, tools and technologies I am really good at:
-        </h3>
+      <div className="flex w-[1216px] h-[28px] justify-center mb-12">
+        <h3>The skills, tools and technologies I am really good at:</h3>
       </div>
-      <div className="w-[2480px] h-[248px] flex flex-col px-24">
+      <div className="w-[2480px] h-[248px] flex flex-col  gap-12">
         <div className=" flex [1216px] h-[120px] gap-[90px]">
           <div className=" flex flex-col w-[64px] h-[64px]">
             <svg

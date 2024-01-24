@@ -2,7 +2,7 @@ import { Button } from "./elements";
 
 export const Contactme = () => {
   return (
-    <div className="w-[1440px] h-[560px] flex flex-col gap-4">
+    <div className="w-[1440px] h-[460px] flex flex-col gap-4 m-auto">
       <div className="flex justify-center">
         <Button buttName={"Get in touch"} />
       </div>

@@ -1,9 +1,11 @@
 import { Button } from "./elements";
 export const About = () => {
   return (
-    <div className="w-[1440px] h-[962px] px-12 py-18 bg-gray-50 ">
-      <div className="flex justify-center"></div>
-      <Button buttName="About me" />
+    <div className="w-[1440px] h-[962px] px-20 py-24 bg-gray-50 m-auto ">
+      <div className="flex justify-center mb-12">
+        <Button buttName="About me" />
+      </div>
+
       <div className="flex gap-52">
         <div>
           <img src="./about.png" alt="" />
