@@ -2,8 +2,8 @@ import { work } from "../utils/work";
 import { Button } from "./elements";
 export const Work = () => {
   return (
-    <div className="w-[1440px] h-[1848px] flex flex-col pl-6 m-auto">
-      <div className="flex justify-center mt-12">
+    <div className="w-[1440px] h-[1848px] flex flex-col px-20 py-24 m-auto">
+      <div className="flex justify-center">
         <Button buttName={"Work"} />
       </div>
       <div className="flex justify-between ">
@@ -13,8 +13,11 @@ export const Work = () => {
       </div>
 
       <div className="w-[1152px] h-[480px] flex gap-12 mb-12">
-        <img className="w-[480px] h-[384px]" src="picture.png" alt="" />
-        <div className="flex flex-col gap-8">
+        <div className="w-1/2 px-12 py-12 bg-gray-50">
+        <img className="w-[480px] h-[384px] rounded-lg" src="picture.png" alt=" px-12 py-12" /> 
+        </div>
+      
+        <div className="flex flex-col gap-8 w-1/2">
           <p className="font-bold">Fiskil</p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
@@ -58,7 +61,7 @@ export const Work = () => {
         </div>
       </div>
       <div className="w-[1152px] h-[480px] flex gap-12 mb-12">
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 w-1/2">
           <p className="font-bold">Fiskil</p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
@@ -100,11 +103,15 @@ export const Work = () => {
             />
           </svg>
         </div>
-        <img className="w-[480px] h-[384px]" src="picture.png" alt="" />
+        <div className="w-1/2 px-12 py-12 bg-gray-50">
+        <img className="w-[480px] h-[384px] rounded-lg" src="picture.png" alt=" px-12 py-12" /> 
+        </div>
       </div>
       <div className="w-[1152px] h-[480px] flex gap-12">
-        <img className="w-[480px] h-[384px]" src="picture.png" alt="" />
-        <div className="flex flex-col gap-8">
+      <div className="w-1/2 px-12 py-12 bg-gray-50">
+        <img className="w-[480px] h-[384px] rounded-lg" src="picture.png" alt=" px-12 py-12" /> 
+        </div>
+        <div className="flex flex-col gap-8 w-1/2">
           <p className="font-bold">Fiskil</p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas

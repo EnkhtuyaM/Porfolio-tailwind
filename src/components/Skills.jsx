@@ -9,8 +9,8 @@ export const Skills = () => {
       <div className="flex w-[1216px] h-[28px] justify-center mb-12">
         <h3>The skills, tools and technologies I am really good at:</h3>
       </div>
-      <div className="w-[2480px] h-[248px] flex flex-col  gap-12">
-        <div className=" flex [1216px] h-[120px] gap-[90px]">
+      <div className="w-[1216px] h-[248px] flex flex-col  gap-12">
+        <div className=" flex [1216px] h-[120px] gap-[98px]">
           <div className=" flex flex-col w-[64px] h-[64px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -210,7 +210,7 @@ export const Skills = () => {
             <p>Socket.io</p>
           </div>
         </div>
-        <div className="flex [1216px] h-[100px] gap-[90px]">
+        <div className="flex [1216px] h-[120px] gap-[98px]">
           <div className="flex flex-col w-[44px] h-[50px]">
             <img className="" src="postgresql.png" alt="" />
             <p>PostgreSQL</p>
