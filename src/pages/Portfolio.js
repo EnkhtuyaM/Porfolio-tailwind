@@ -9,7 +9,7 @@ import {
   Footer,
 } from "@/components";
 
-export const Portfolio = () => {
+const Portfolio = () => {
   return (
     <div>
       <Header />
@@ -23,3 +23,4 @@ export const Portfolio = () => {
     </div>
   );
 };
+export default Portfolio;
