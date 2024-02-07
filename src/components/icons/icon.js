@@ -1,5 +1,3 @@
-import { fromJSON } from "postcss";
-
 export * from "./NodejsIcon";
 export * from "./JavascriptIcon";
 export * from "./TypeScriptIcon";
@@ -12,6 +10,6 @@ export * from "./MongodbIcon";
 export * from "./CypressIcon";
 export * from "./FigmaIcon";
 export * from "./GitIcon";
-export *from "./SassIcon";
+export * from "./SassIcon";
 export * from "./StorybookIcon";
 export * from "./TailwindcssIcon";
